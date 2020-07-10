@@ -17,13 +17,13 @@ purposes only.
 **Note:** On par with below instruction, a suite of tests located in the `test`
 folder can also be used as documentation for using the utility.
 
-1. npm install the package directly from GitHub:
+1. Install the package directly from GitHub:
 
 ```
 npm install git+ssh://git@github.com:aptivator/ip-to-domain.git
 ```
 
-2. include the utility in your code:
+2. Include the utility in the code:
 
 ```javascript
 const path       = require('path');
@@ -50,8 +50,8 @@ let concurrentLookups = 20;
 //or, for regular JavaScript object use "object"
 let format = 'text'; 
 
-ipToDomain(logFile, recordRx, ipIndex, concurrentLookups, format).then(results => {
-  //do something with results
+ipToDomain(logFile, recordRx, ipIndex, concurrentLookups, format).then(report => {
+  //do something with the report
 });
 ```
 
