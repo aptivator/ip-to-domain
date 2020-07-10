@@ -60,7 +60,8 @@ ipToDomain(logFile, recordRx, ipIndex, concurrentLookups, format).then(report =>
 The project comes with basic testing scaffolding.  In development mode, the 
 tests are run anytime `src` or `test` folder files are changed.  
 
-The mode can be launched with this command:
+The mode can be launched with the below command. (**Note:** make sure that
+all dependcies are installed in the cloned repository by running `npm install`).
 
 ```
 npm run dev
