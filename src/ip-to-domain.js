@@ -17,7 +17,7 @@ module.exports = function(logFile, recordRx, ipIndex, concurrentLookups, reportT
     rl.on('line', line => {
       let ip = line.match(recordRx)[ipIndex];
       
-      if(typeof ips[ip] === 'undefined') {
+      if(!ips.hasOwnProperty(ip)) {
         return ips[ip] = 1;
       }
       
