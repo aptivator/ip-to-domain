@@ -33,7 +33,6 @@ describe('tracker', () => {
     let ip2 = '192.22.33.22';
     let ip3 = '192.23.33.22';
     
-    
     tracker.trackIpParts(ip1, 2, records);
     tracker.trackIpParts(ip2, 2, records);
     tracker.trackIpParts(ip3, 3, records);
