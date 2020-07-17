@@ -28,6 +28,6 @@ describe('async-executor', () => {
     duration = Date.now() - start;
     expect(sum).to.equal(55);
     expect(duration).to.be.at.least(500);
-    expect(duration).to.be.at.most(520);
+    expect(duration).to.be.at.most(600);
   });
 });
